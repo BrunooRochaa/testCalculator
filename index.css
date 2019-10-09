@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #20639b;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: #173f5f;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.calc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    width: 400px;
+}
+
+ .num1, .num2 {
+    margin: 5px;
+    padding: 3px;
+    width: 100px;
+    height: 16px;
+    border-radius: 3px;
+    border: 1px solid rgb(201,201,201);
+}
+select  {
+    height: 24px;
+    border: 1px solid rgb(201,201,201);
+    border-radius: 3px;
+}
+
+.res {
+    height: 24px;
+    border: 1px solid rgb(201,201,201);
+    border-radius: 3px;
+    width: 20px;
+}
