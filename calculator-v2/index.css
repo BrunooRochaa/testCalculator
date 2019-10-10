@@ -7,7 +7,7 @@
 }
 body {
     background-color: #20639b;
-    padding: 0 200px;
+    /* padding: 0 200px; */
 }
 h1{
     color: white;
@@ -19,15 +19,14 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
     background-color: #173f5f;
     padding: 15px;
     border-radius: 7px;
     box-shadow: black 0px 0px 10px 1px;
+    width: 200px;
+    margin: 40px auto;
 }
-.visor {
-    
-}
+
 #display{
     text-align: end;
     margin-bottom: 8px;
