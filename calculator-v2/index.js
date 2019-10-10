@@ -49,3 +49,7 @@ function calc() {
         document.getElementById('display').value = `${res}`;
     }
 }
+
+function clear() {
+    
+}

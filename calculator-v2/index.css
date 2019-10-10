@@ -26,14 +26,38 @@ h1{
     width: 200px;
     margin: 40px auto;
 }
-
+.visor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.clear {
+    height: 25px;
+    width: 50px;
+    border: 1px solid rgb(211, 211, 211);
+    background-color: white;
+    margin-left: 4px;
+    border-radius: 2px;
+    margin-bottom: 8px;
+}
+.clear:hover{
+    background-color: rgb(235, 235, 235);
+}
+.clear:active{
+    background-color: rgb(207, 207, 207);
+}
+.clear:focus{
+    outline: none;
+}
 #display{
     text-align: end;
     margin-bottom: 8px;
-    width: 208px;
+    width: 164;
     height: 25px;
     border: 1px solid rgb(211, 211, 211);
     border-radius: 2px;
+    padding-right: 4px;
 }
 .btn {
     width: 50px;

@@ -9,5 +9,6 @@ Simple calculator to learn JS and how git works
 
 To do
 - [x] make result appear in visor
-- [x] finish all operations (for now just '+' works)
+- [x] finish all operations
 - [ ] make a clear button
+- [ ] make keyboard work too
