@@ -13,8 +13,10 @@
         <h1>Calculator v2</h1>
         <form class="visor">
             <input type="text" name="display" id="display">
-            <input type="reset" value="C" class='clean'>
-            <input type="button" value="del" class='clean' onclick="clean()">
+            <div class="delButtons">
+                <input type="reset" value="C" class='clean'>
+                <input type="button" value="del" class='clean' onclick="clean()">
+            </div>
         </form>
         <div class="btns">
             <input type="button" class='btn' value="7" onclick="visor( value )">
