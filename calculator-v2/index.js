@@ -50,6 +50,6 @@ function calc() {
     }
 }
 
-function clear() {
-    
+function clean() {
+    document.getElementById('display').value = ' ';
 }
