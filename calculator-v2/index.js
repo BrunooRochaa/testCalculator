@@ -51,5 +51,8 @@ function calc() {
 }
 
 function clean() {
-    document.getElementById('display').value = ' ';
+    let conta = document.getElementById('display').value;
+    let del = conta.slice(0, -1);
+    document.getElementById('display').value = del;
+
 }
