@@ -1,5 +1,5 @@
 # testCalculator
-two simple calculator that i made to learn JavaScript and how github works.
+two simple calculators that i made to learn JavaScript and how github works.
 
 # First Calculator
 
