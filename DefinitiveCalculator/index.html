@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Definitive Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Definitive Calculator</h1>
+        <div class="visor">
+            <div type="text" name="display" id="display"></div>
+            <div class="delButtons">
+                <input type="button" value="C" class='clean' onclick="C()">
+                <input type="button" value="delete" class='clean' onclick="del()">
+            </div>
+        </div>
+        <div class="btns">
+            <input type="button" class='btn' value="7" onclick="visor( value )" >
+            <input type="button" class='btn' value="8" onclick="visor( value )" >
+            <input type="button" class='btn' value="9" onclick="visor( value )" >
+            <input type="button" class='btn' value="/" onclick="visor( value )" >
+            <input type="button" class='btn' value="4" onclick="visor( value )" >
+            <input type="button" class='btn' value="5" onclick="visor( value )" >
+            <input type="button" class='btn' value="6" onclick="visor( value )" >
+            <input type="button" class='btn' value="*" onclick="visor( value )" >
+            <input type="button" class='btn' value="1" onclick="visor( value )" >
+            <input type="button" class='btn' value="2" onclick="visor( value )" >
+            <input type="button" class='btn' value="3" onclick="visor( value )" >
+            <input type="button" class='btn' value="-" onclick="visor( value )" >
+            <input type="button" class='btn' value="." onclick="visor( value )" >
+            <input type="button" class='btn' value="0" onclick="visor( value )" >
+            <input type="button" class='btn' value="=" onclick="calc()" >
+            <input type="button" class='btn' value="+" onclick="visor( value )" >
+        </div>
+    </div>
+</body>
+</html>

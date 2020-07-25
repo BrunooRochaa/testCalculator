@@ -1,11 +1,11 @@
 # testCalculator
 Simple calculator to learn JS and how git works
 
-# Calculator v1
+# First Calculator
 
 - [x] Done
 
-# Calculator v2
+# Definitive Calculator
 
 To do
 - [x] make result appear in visor
